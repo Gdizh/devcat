@@ -5,7 +5,7 @@ authors = ["Lucian BLETAN <neuraluc@gmail.com>"]
 edition = "2024"
 description = "A micro-version control system for your AI development loop."
 license = "MIT"
-readme = "readme.md"
+readme = "README.md"
 documentation = "https://docs.rs/devcat"
 
 homepage = "https://github.com/gni/devcat"
