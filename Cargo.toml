@@ -6,6 +6,7 @@ edition = "2024"
 description = "A micro-version control system for your AI development loop."
 license = "MIT"
 readme = "readme.md"
+documentation = "https://docs.rs/devcat"
 
 homepage = "https://github.com/gni/devcat"
 repository = "https://github.com/gni/devcat"
