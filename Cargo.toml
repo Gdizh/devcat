@@ -12,7 +12,7 @@ homepage = "https://github.com/gni/devcat"
 repository = "https://github.com/gni/devcat"
 
 categories = ["command-line-utilities", "development-tools"]
-keywords = ["copy-paste", "llm", "cli", "cat", "code", "tree", "openai", "claude", "gemini", "ollama", "oss", "ai"]
+keywords = ["llm", "code", "ollama", "oss", "ai"]
 
 [dependencies]
 chrono = { version = "0.4.41", features = ["serde"] }
