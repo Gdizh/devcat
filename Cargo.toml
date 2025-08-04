@@ -1,0 +1,38 @@
+[package]
+name = "devcat"
+version = "0.1.0"
+authors = ["Lucian BLETAN <neuraluc@gmail.com>"]
+edition = "2024"
+description = "A micro-version control system for your AI development loop."
+license = "MIT"
+readme = "readme.md"
+
+homepage = "https://github.com/gni/devcat"
+repository = "https://github.com/gni/devcat"
+
+categories = ["command-line-utilities", "development-tools"]
+keywords = ["copy-paste", "llm", "cli", "cat", "code", "tree", "openai", "claude", "gemini", "ollama", "oss", "ai"]
+
+[dependencies]
+chrono = { version = "0.4.41", features = ["serde"] }
+clap = { version = "4.5.42", features = ["derive"] }
+env_logger = "0.11.8"
+globset = "0.4.16"
+humantime = "2.2.0"
+ignore = "0.4.23"
+log = "0.4.27"
+notify = "8.2.0"
+regex = "1.11.1"
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.142"
+sha2 = "0.10.9"
+similar = "2.7.0"
+thiserror = "2.0.12"
+toml = "0.9.4"
+
+[profile.release]
+strip = true
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
