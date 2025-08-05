@@ -25,7 +25,7 @@ That's why I made **DevCat**. It's a micro-version control system built for how 
 
 ## Installation
 
-[DevCat](https://github.com/gni/devcat) is a Rust binary. You can build it from source or grab a pre-compiled binary from the [releases page](https://www.google.com/search?q=https://github.com/gni/devcat/releases).
+[DevCat](https://github.com/gni/devcat) is a Rust binary.
 
 ### From Source
 
@@ -33,6 +33,11 @@ That's why I made **DevCat**. It's a micro-version control system built for how 
 git clone https://github.com/gni/devcat.git
 cd devcat
 cargo install --path .
+```
+
+### With cargo
+```bash
+cargo install devcat
 ```
 
 -----
